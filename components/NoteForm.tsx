@@ -11,7 +11,7 @@ export default function NoteForm({ onSubmit }) {
   const [category, setCategory] = useState(null);
   const [summary, setSummary] = useState(null);
 
-  const API_KEY = `Bearer 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`;
+  const API_KEY = ``;
 
   useEffect(() => {
     const fetchCategoryAndSummary = async () => {
